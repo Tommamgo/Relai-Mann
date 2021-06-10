@@ -20,10 +20,10 @@ void setup()
 
 {
 
-  rand0 = random(0, 59)* 100;
-  rand1 = random(0, 59)* 100;
-  rand2 = random(0, 59)* 100; 
-  rand3 = random(0, 59)* 100; 
+  rand0 = random(0, 59)* 1000;
+  rand1 = random(0, 59)* 1000;
+  rand2 = random(0, 59)* 1000; 
+  rand3 = random(0, 59)* 1000;
 
   pinMode(re_0, OUTPUT);
   pinMode(re_1, OUTPUT);
